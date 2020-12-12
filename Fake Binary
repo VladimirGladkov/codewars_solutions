@@ -1,0 +1,10 @@
+#https://www.codewars.com/kata/57eae65a4321032ce000002d/train/python
+
+def fake_bin(x):
+    rx = ''
+    for el in x:
+        if el in '01234':
+            rx += '0'
+        else:
+            rx += '1'
+    return rx
