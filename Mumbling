@@ -1,0 +1,8 @@
+#https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/train/python
+def accum(s):
+    sum = ''
+    for i in range(len(s)):
+        str = (s[i]*(i+1)).title()
+        sum += str
+        sum += '-'
+    return sum[:-1]
