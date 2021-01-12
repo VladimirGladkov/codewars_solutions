@@ -1,0 +1,4 @@
+#https://www.codewars.com/kata/515e188a311df01cba000003/solutions/python
+def get_planet_name(id):
+    name=["Mercury","Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"]
+    return name[id-1]
