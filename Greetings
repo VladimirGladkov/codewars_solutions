@@ -1,0 +1,6 @@
+#https://www.codewars.com/kata/5901c9d463bf406d7c000107/train/python
+def greetings(time, name):
+    if (time == None or name == None) or (type(time) != str or type(name) != str):
+        return "Hey dude greet someone"
+    else:
+        return f"Good {time} {name}"
