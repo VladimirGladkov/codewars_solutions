@@ -1,0 +1,4 @@
+#https://www.codewars.com/kata/5264d2b162488dc400000001/solutions/python
+def spin_words(sentence):
+    sentence = sentence.split()#separate words
+    return ' '.join([el[::-1] if len(el) >= 5 else el for el in sentence])
