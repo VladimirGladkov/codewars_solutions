@@ -1,0 +1,12 @@
+#https://www.codewars.com/kata/6036e1d97a842b00274d352c/solutions/python
+def tom_code(num):
+    cats = ["None", "A little", "A lot", "SO MANY"]
+    if num == 0:
+        response = cats[0]
+    elif num <= 10:
+        response = cats[1]
+    elif num <= 25:
+        response = cats[2]
+    else:
+        response = cats[3]
+    return response
