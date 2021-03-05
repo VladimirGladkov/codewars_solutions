@@ -1,0 +1,7 @@
+#https://www.codewars.com/kata/6042bbcb5a72ae000d197d19/solutions/python
+from math import ceil
+def ab(a, b):
+    a = sum([int(el) for el in str(a)])
+    b = sum([int(el) for el in str(b)])
+    print(a,b)
+    return ceil(a / b)
