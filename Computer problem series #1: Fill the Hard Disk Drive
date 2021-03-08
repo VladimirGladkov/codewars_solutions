@@ -1,0 +1,10 @@
+#https://www.codewars.com/kata/5d49c93d089c6e000ff8428c/solutions/python
+def save(sizes, hd): 
+    n = 0
+    i = 0
+    if sum(sizes) < hd:
+        return len(sizes)
+    while n < hd:
+        n += sizes[i]
+        i += 1
+    return i if n == hd else i - 1
