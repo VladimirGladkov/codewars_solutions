@@ -1,0 +1,5 @@
+#https://www.codewars.com/kata/604517d65b464d000d51381f/solutions/python
+def strange_math(n, k):
+    m = list(range(1,n+1))
+    m = sorted([str(el) for el in m])
+    return m.index(str(k)) + 1
