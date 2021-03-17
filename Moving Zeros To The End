@@ -1,0 +1,7 @@
+#https://www.codewars.com/kata/52597aa56021e91c93000cb0/solutions/python
+def move_zeros(array):
+    xyz = [el for el in array if el != 0]
+    z = array.count(0)
+    for i in range(z):
+        xyz.append(0)
+    return xyz
