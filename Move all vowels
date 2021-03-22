@@ -1,0 +1,5 @@
+#https://www.codewars.com/kata/56bf3287b5106eb10f000899/solutions/python
+def move_vowels(inp): 
+    v = ''.join([el for el in inp if el in 'aeiou'])
+    c = ''.join([el for el in inp if not el in 'aeiou'])
+    return c + v
