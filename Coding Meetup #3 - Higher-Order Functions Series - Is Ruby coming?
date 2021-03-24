@@ -1,0 +1,8 @@
+#https://www.codewars.com/kata/5827acd5f524dd029d0005a4/solutions/python
+def is_ruby_coming(lst): 
+    dev = 0
+    for el in lst:
+        print(el['language'])
+        if el['language'] == 'Ruby':
+            dev += 1
+    return True if dev >= 1 else False
