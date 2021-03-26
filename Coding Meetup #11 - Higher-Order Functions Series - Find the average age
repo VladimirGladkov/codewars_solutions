@@ -1,0 +1,4 @@
+#https://www.codewars.com/kata/582ba36cc1901399a70005fc/solutions/python/me/best_practice
+def get_average(lst): 
+    arr = [el["age"] for el in lst]
+    return round(sum(arr) / len(arr))
