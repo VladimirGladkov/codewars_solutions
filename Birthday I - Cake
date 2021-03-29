@@ -1,0 +1,4 @@
+#https://www.codewars.com/kata/5805ed25c2799821cb000005/solutions/python/me/best_practice
+def cake(candles,debris):
+    s = sum([ord(el) if i % 2 == 0 else ord(el) - 96 for i,el in enumerate(debris)]) > candles * 70 / 100
+    return 'Fire!' if s == True and candles > 0 else 'That was close!'
