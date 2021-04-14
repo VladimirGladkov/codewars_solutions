@@ -1,0 +1,4 @@
+#https://www.codewars.com/kata/58dbdccee5ee8fa2f9000058/solutions/python
+def sp_eng(s): 
+    s = s.lower()
+    return 'english' in s
