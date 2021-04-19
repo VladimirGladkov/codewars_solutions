@@ -1,0 +1,7 @@
+#https://www.codewars.com/kata/5901f361927288d961000013/solutions/python
+def product(numbers=0):
+    p = 1
+    if numbers == [] or numbers == None: return None
+    for el in numbers:
+        p = p * el
+    return p
