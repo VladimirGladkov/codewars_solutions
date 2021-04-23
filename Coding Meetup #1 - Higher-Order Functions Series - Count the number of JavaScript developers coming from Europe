@@ -1,0 +1,7 @@
+#https://www.codewars.com/kata/582746fa14b3892727000c4f/solutions/python
+def count_developers(lst):
+    count = 0
+    for el in lst:
+        if el['continent'] == 'Europe' and el['language'] == 'JavaScript':
+            count += 1
+    return count
