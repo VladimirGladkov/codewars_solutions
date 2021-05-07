@@ -1,0 +1,7 @@
+#https://www.codewars.com/kata/58b665c891e710a3ec00003f/solutions/python
+
+def merge_arrays(a, b):
+    ela = [el for el in a if a.count(el)==b.count(el) or b.count(el) == 0]
+    elb = [el for el in b if b.count(el)==a.count(el) or a.count(el) == 0]
+    ela.extend(elb)
+    return sorted(list(set(ela)))
