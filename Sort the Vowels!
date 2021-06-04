@@ -1,0 +1,3 @@
+#https://www.codewars.com/kata/59e49b2afc3c494d5d00002a/solutions/python
+def sort_vowels(s):
+    return '\n'.join(['|'+el if el.lower() in 'aeiou' else el+'|' for el in s]) if type(s) == str else ''
