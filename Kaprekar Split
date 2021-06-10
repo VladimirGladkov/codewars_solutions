@@ -1,0 +1,10 @@
+#https://www.codewars.com/kata/5b6ee22ac5cc71833f0010d7/solutions/python/me/best_practice
+def kaprekar_split(n):
+    p = str(n**2)
+    if n == 1: return 0
+    if n == 9: return 1
+    for i in range(1,len(p)-1):
+        print(p[:i],p[i:])
+        if int(p[:i]) + int(p[i:]) == n:
+            return i
+    return -1
