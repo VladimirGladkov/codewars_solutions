@@ -1,0 +1,6 @@
+#https://www.codewars.com/kata/60908bc1d5811f0025474291/solutions/python
+import math
+def find_squares(num):
+    num1 = math.ceil(num / 2)**2
+    num2 = math.floor(num / 2)**2
+    return f'{num1}-{num2}'
