@@ -1,0 +1,6 @@
+#https://www.codewars.com/kata/541103f0a0e736c8e40011d5/solutions/python
+import math
+def off(n):
+    n = int(math.sqrt(n))
+    arr = [i**2 for i in range(1, n+1)]
+    return arr
